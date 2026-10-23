@@ -823,3 +823,72 @@ footer p {
         font-size: 0.9rem;
     }
 }
+
+/* Bouton de la navbar : Un petit mot pour toi */
+.top-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px 18px;
+    border: 1px solid #f3a6c4;
+    border-radius: 50px;
+    background: #fff0f6;
+    color: #b83268;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.top-link:hover {
+    background: #e85d91;
+    color: #ffffff;
+    border-color: #e85d91;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(184, 50, 104, 0.18);
+}
+
+/* Bouton du footer : Retour en haut */
+.back-top {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 10px 20px;
+    border: 1px solid #f3a6c4;
+    border-radius: 50px;
+    background: #fff0f6;
+    color: #b83268;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.back-top:hover {
+    background: #e85d91;
+    color: #ffffff;
+    border-color: #e85d91;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 14px rgba(184, 50, 104, 0.18);
+}
+
+/* Accessibilité : navigation au clavier */
+.top-link:focus-visible,
+.back-top:focus-visible {
+    outline: 3px solid #b83268;
+    outline-offset: 3px;
+}
+
+/* Adaptation aux petits écrans */
+@media (max-width: 480px) {
+    .top-link {
+        padding: 8px 12px;
+        font-size: 13px;
+    }
+
+    .back-top {
+        padding: 9px 16px;
+        font-size: 14px;
+    }
+}
