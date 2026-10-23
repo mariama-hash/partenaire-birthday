@@ -892,3 +892,38 @@ footer p {
         font-size: 14px;
     }
 }
+
+/* Logo élégant */
+.logo {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  text-decoration: none;
+  line-height: 1.15;
+}
+
+.logo-names {
+  color: #772747;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.logo-plus {
+  color: #D85D91;
+  padding: 0 2px;
+}
+
+.logo-subtitle {
+  color: #B83268;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.logo-heart {
+  color: #D85D91;
+  font-size: 13px;
+  letter-spacing: 0;
+}
